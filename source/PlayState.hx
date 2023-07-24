@@ -369,6 +369,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
+				case 'bopeebo':
+					curStage = 'school';
 				default:
 					curStage = 'stage';
 			}
